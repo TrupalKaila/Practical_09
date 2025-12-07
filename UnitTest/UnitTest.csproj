@@ -77,9 +77,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Practical-09\Practical-09.csproj">
-      <Project>{7cb1a23b-1392-450b-9eec-ca6d670f9984}</Project>
-      <Name>Practical-09</Name>
+    <ProjectReference Include="..\Practical_Test3\Practical_Test3.csproj">
+      <Project>{ac75c525-c751-42da-92a8-95c21ecfd37b}</Project>
+      <Name>Practical_Test3</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Practical_09
+namespace Practical_Test1
 {
     public class RouteConfig
     {

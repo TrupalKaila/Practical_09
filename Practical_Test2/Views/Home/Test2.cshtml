@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<h2>Test 2</h2>
+
+<div>
+    <button onclick="printText()">Print text</button>
+    <button onclick="makeBold()">Bold</button>
+    <button onclick="makeItalic()">Italic</button>
+    <button onclick="makeUnderline()">Underline</button>
+    <button onclick="resetStyle()">Reset</button>
+
+    <br /><br />
+
+    <label id="txt"></label>
+</div>
+
+<script>
+    const label = document.getElementById("txt");
+
+    function printText() {
+        label.innerText = "Hello World";
+    }
+
+    function makeBold() {
+        label.style.fontWeight = "bold";
+    }
+
+    function makeItalic() {
+        label.style.fontStyle = "italic";
+    }
+
+    function makeUnderline() {
+        label.style.textDecoration = "underline";
+    }
+
+    function resetStyle() {
+        label.style.fontWeight = "normal";
+        label.style.fontStyle = "normal";
+        label.style.textDecoration = "none";
+        label.innerText = "";
+    }
+</script>
